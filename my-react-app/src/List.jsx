@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import Button from './Button.jsx'
 
 function List(props) {
     const sortedItems = [...props.array].sort((item1, item2) => item1.calories - item2.calories)
@@ -9,6 +10,8 @@ function List(props) {
             <h1>{props.category}</h1>
             {itemsList}
         </ul>
+     
+     
     );
 }
 
