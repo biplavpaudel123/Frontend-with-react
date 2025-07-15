@@ -1,0 +1,49 @@
+#root{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+  border: 1px hsl(0, 0%, 80%) solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  position: relative;
+  max-width: 250px;
+  height: 300px;
+  display: inline-block;
+}
+.card .card-image{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card .card-status{
+font-family: Arial, sans-serif ;
+color: rgba(0, 0, 0, 0.4);
+position: absolute;
+font-size: 0.8rem;
+left: 70%;
+top: 0px;
+}
+.card .card-title{
+  font-family: Arial, sans-serif ;
+  margin: 0;
+  color: hsl(0, 0, 20%);
+}
+
+.card .card-description{
+  font-family: Arial, sans-serif ;
+  color: hsl(0, 0, 30%);
+}
+
+@media screen and (max-width: 580px) {
+  .card{
+    width: 100vw;
+    max-width: 250px;
+  }
+}
