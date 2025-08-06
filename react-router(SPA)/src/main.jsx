@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './components/Layout.jsx'
 import Home from './components/Home/Home.jsx'
 import Products from './components/Products/Products.jsx'
+import User from './components/User/User.jsx';
+import Github, { githubDataLoader } from './components/Github/Github.jsx';
 
 const router= createBrowserRouter([
   {
@@ -19,6 +21,15 @@ const router= createBrowserRouter([
        {
         path:'products',
         element: <Products/>
+      },
+       {
+        path:'user/:userId',
+        element: <User/>
+      },
+      {
+        path:'github',
+        element:<Github/>,
+        loader: githubDataLoader
       }
     ]
   }
