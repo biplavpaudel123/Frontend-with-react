@@ -19,7 +19,7 @@ This repository includes the following mini-projects:
 | `react-router(SPA)`            | SPA showcasing client-side routing using React Router.                     |
 | `reduxToolkit-Todo`           | A Todo app built using Redux Toolkit for state management.                 |
 | `todo-contextapi-localstorage`| Todo list using Context API and `localStorage` for persistence.            |
-| `context-api.excalidraw`       | A visual diagram (via Excalidraw) explaining the Context API structure.    |
+
 
 ---
 
