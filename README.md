@@ -39,9 +39,6 @@ npm start
 
 ---
 
-
----
-
 ## 🛠 Tech Stack
 
 - **React** (via Create React App or custom setups)
