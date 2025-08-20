@@ -33,6 +33,7 @@ cd Frontend-with-react
 cd <project_folder>
 npm install
 npm start
+```
 
 > 🔁 **Note**: Replace `<project_folder>` with the actual name of the project, e.g., `passwordGenerator`.
 
